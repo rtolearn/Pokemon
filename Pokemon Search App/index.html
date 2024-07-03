@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"> </script>
+    <title>Pokemon Search App</title>
+</head>
+<body>
+<!-- 
+You should have an input element with an id of "search-input"
+You should have a button element with an id of "search-button
+You should have an element with an id of "pokemon-name"
+You should have an element with an id of "pokemon-id"
+You should have an element with an id of "weight"
+You should have an element with an id of "height"
+You should have an element with an id of "types"
+You should have an element with an id of "hp"
+You should have an element with an id of "attack"
+You should have an element with an id of "defense"
+You should have an element with an id of "special-attack"
+You should have an element with an id of "special-defense"
+You should have an element with an id of "speed" 
+-->
+    <h1>Pokemon!</h1>
+    <div id="container">
+        <h3>Search for Pokémon Name or ID: </h3>
+        <div id="place-to-search-pokemon">
+            <h5>Don't know what to search?</h5>
+            <button id="go-pokemon-list">Click here</button>
+        </div>
+        <div id="pokemon-list">
+            <button id="closeList">X</button>
+            <div>
+                <h4>Name</h4>
+                <div id="pokemon-list-name" class="listItem"> </div>
+            </div>
+            <div>
+                <h4>Id</h4>
+                <div id="pokemon-list-id" class="listItem"> </div>
+            </div>
+            <!-- <div>
+                <h4>Image</h4>
+                <div id="pokemon-list-image" class="listItem"> </div>
+            </div> -->
+            
+            
+        </div>
+        
+        <div id="search-bar">
+            <input id="search-input" placeholder="Name or ID"/>
+            <button id="search-button">SEARCH</button>
+        </div>
+        <div id="title">
+            <div id="pokemon-name-id">
+                <div id="pokemon-name"></div>
+                <div id="pokemon-id"></div>
+            </div>
+           
+            <div id="pokemon-weight-height">
+                <div id="weight"></div>
+                <div id="height"></div>
+            </div>
+
+            <div id="image"></div>
+            <div id="types"></div>
+        </div>
+        
+
+        <div id="pokemon-information">   
+            <h3 class="base-info">Base</h3>
+            <h3>Stats</h3>
+            <h3 class="base-info">HP:</h3>
+            <h3 id="hp">HP</h3>
+            <h3 class="base-info">Attack:</h3>
+            <h3 id="attack">attack</h3>
+            <h3 class="base-info">Defense:</h3>
+            <h3 id="defense">defense</h3>
+            <h3 class="base-info">Sp. attack:</h3>
+            <h3 id="special-attack">Sp. Att</h3>
+            <h3 class="base-info">Sp. defense:</h3>
+            <h3 id="special-defense">Sp. Def</h3>
+            <h3 class="base-info">Speed:</h3>
+            <h3 id="speed">speed</h3>
+        </div>
+
+    </div>
+    <h2>Pokeball Exhibition</h2>
+    <img src="pokeball.png" alt="Image of all the pokeball of pokemon.." id="pokeball-image"/>
+</body>
+</html>
